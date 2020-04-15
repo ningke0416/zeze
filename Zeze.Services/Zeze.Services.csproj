@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Zeze.Common\Zeze.Common.csproj" />
+    <ProjectReference Include="..\Zeze.IRepository\Zeze.IRepository.csproj" />
+    <ProjectReference Include="..\Zeze.IServices\Zeze.IServices.csproj" />
+  </ItemGroup>
+
+</Project>

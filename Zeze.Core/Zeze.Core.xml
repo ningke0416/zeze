@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Zeze.Core</name>
+    </assembly>
+    <members>
+        <member name="M:Zeze.Core.AOP.CacheAOPbase.Intercept(Castle.DynamicProxy.IInvocation)">
+            <summary>
+            AOP的拦截方法
+            </summary>
+            <param name="invocation"></param>
+        </member>
+        <member name="M:Zeze.Core.AOP.CacheAOPbase.CustomCacheKey(Castle.DynamicProxy.IInvocation)">
+            <summary>
+            自定义缓存的key
+            </summary>
+            <param name="invocation"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Zeze.Core.AOP.CacheAOPbase.GetArgumentValue(System.Object)">
+            <summary>
+            object 转 string
+            </summary>
+            <param name="arg"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Zeze.Core.AOP.ZezeLogAOP">
+            <summary>
+            拦截器BlogLogAOP 继承IInterceptor接口
+            </summary>
+        </member>
+        <member name="M:Zeze.Core.AOP.ZezeLogAOP.Intercept(Castle.DynamicProxy.IInvocation)">
+            <summary>
+            实例化IInterceptor唯一方法 
+            </summary>
+            <param name="invocation">包含被拦截方法的信息</param>
+        </member>
+        <member name="T:Zeze.Core.AOP.ZezeRedisCacheAOP">
+            <summary>
+            面向切面的缓存使用
+            </summary>
+        </member>
+        <member name="M:Zeze.Core.AutoMapper.CustomProfile.#ctor">
+            <summary>
+            配置构造函数，用来创建关系映射
+            </summary>
+        </member>
+        <member name="M:Zeze.Core.Controllers.VowController.GetVowPageList(Zeze.Core.Models.BasePageModel)">
+            <summary>
+            分页获取许愿列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Zeze.Core.Controllers.VowController.GetVowAllList">
+            <summary>
+            获取许愿列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Zeze.Core.Controllers.VowController.Post(Zeze.Core.Models.Vows.VowCreateModel)">
+            <summary>
+            许愿
+            </summary>
+            <param></param>
+        </member>
+        <member name="M:Zeze.Core.Controllers.VowController.Delete(System.Guid)">
+            <summary>
+            取消许愿
+            </summary>
+        </member>
+        <member name="P:Zeze.Core.Models.BasePageModel.PageIndex">
+            <summary>
+            页码
+            </summary>
+        </member>
+        <member name="P:Zeze.Core.Models.BasePageModel.PageSize">
+            <summary>
+            每页条数
+            </summary>
+        </member>
+        <member name="T:Zeze.Core.Models.MessageModel`1">
+            <summary>
+            获取数据返回类
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:Zeze.Core.Models.Vows.VowCreateModel.VowerName">
+            <summary>
+            许愿者名称
+            </summary>
+        </member>
+        <member name="P:Zeze.Core.Models.Vows.VowCreateModel.EquipmentName">
+            <summary>
+            装备名称
+            </summary>
+        </member>
+        <member name="P:Zeze.Core.Models.Vows.VowCreateModel.EquipmentAttribute">
+            <summary>
+            装备属性
+            </summary>
+        </member>
+    </members>
+</doc>

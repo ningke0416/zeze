@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Zeze.Core</name>
+    </assembly>
+    <members>
+        <member name="M:Zeze.Core.Controllers.WeatherForecastController.Get">
+            <summary>
+            注释
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
