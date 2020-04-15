@@ -13,7 +13,6 @@ namespace Zeze.Services
     public class VowService : IVowService
     {
         private readonly IVowRepository _vowRepository;
-
         public VowService(IVowRepository vowRepository)
         {
             _vowRepository = vowRepository;
